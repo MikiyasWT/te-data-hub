@@ -1,0 +1,16 @@
+/* custom css */
+
+
+.hideScrollbar {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Hide scrollbar */
+  }
+  
+  .hideScrollbar::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+  }
+  
+  .hideScrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Color of the thumb */
+  }
